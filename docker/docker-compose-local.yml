@@ -39,3 +39,4 @@ services:
             retries: 3
         env_file:
             - ./config/.env.localrunner
+            - ./config/.env.localrunner.secrets
